@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klaric’s Entrümpelung Wien | Schnell. Diskret. Besenrein.</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f5f7fa;
+  color: #222;
+}
+
+header {
+  height: 100vh;
+  background: 
+    linear-gradient(rgba(10, 25, 47, 0.72), rgba(10, 25, 47, 0.72)),
+    url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero {
+  max-width: 850px;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  margin-bottom: 15px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.hero p {
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  margin-bottom: 35px;
+  color: #e2e8f0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 18px 40px;
+  background: #0f2c59;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 2px solid #1d4ed8;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.btn-whatsapp {
+  background: #25D366;
+  border-color: #25D366;
+  color: #fff;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebe5d;
+  border-color: #1ebe5d;
+}
+
+section {
+  padding: 70px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #0f2c59;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #0f2c59;
+  font-size: 20px;
+}
+
+.preis-section {
+  background: #0f2c59;
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+  max-width: 100%;
+}
+
+.preis-section h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.preis-subtitle {
+  color: #cbd5e1;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.preis-grid {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.preis-box {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 25px 20px;
+  border-radius: 12px;
+}
+
+.preis-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #93c5fd;
+}
+
+.preis-box .betrag {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.preis-box p {
+  font-size: 14px;
+  color: #e2e8f0;
+}
+
+.ablauf-list {
+  text-align: left;
+  max-width: 520px;
+  margin: 20px auto 0;
+  line-height: 2;
+  font-size: 16px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+  background: #0a192f;
+  color: #cbd5e1;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="hero">
+    <h1>Klaric’s Entrümpelung</h1>
+    <p>Wien & Umgebung • Schnell • Diskret • Besenrein</p>
+    <a class="btn btn-whatsapp"
+       href="https://wa.me/4369010162222?text=Hallo,%20ich%20möchte%20ein%20unverbindliches%20Angebot%20für%20eine%20Entrümpelung%20anfragen."
+       target="_blank">
+      Jetzt per WhatsApp anfragen
+    </a>
+  </div>
+</header>
+
+<section>
+  <h2>Unsere Leistungen</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>📦 Keller & Dachboden</h3>
+      <p>Wir schaffen wieder Platz – fachgerechte Räumung und Abtransport von Sperrmüll, Kartons und Altlasten.</p>
+    </div>
+    <div class="card">
+      <h3>🏠 Wohnungsräumung</h3>
+      <p>Komplette oder teilweise Räumung von Wohnungen, Garagen und Lagerräumen inklusive besenreiner Übergabe.</p>
+    </div>
+    <div class="card">
+      <h3>♻️ Fachgerechte Entsorgung</h3>
+      <p>Umweltgerechte Trennung und zertifizierter Abtransport direkt zu den Wiener Mistplätzen.</p>
+    </div>
+  </div>
+</section>
+
+<div class="preis-section">
+  <h2>Transparente Richtpreise</h2>
+  <p class="preis-subtitle">Faire Fixpreise ohne versteckte Kosten – inklusive Tragen, Transport & Entsorgung</p>
+
+  <div class="preis-grid">
+    <div class="preis-box">
+      <h3>Kleiner Keller (ca. 3 m³)</h3>
+      <div class="betrag">ab 220 €</div>
+      <p>Ideal für einzelne Möbelstücke, Kartons & Kleinkram</p>
+    </div>
+
+    <div class="preis-box">
+      <h3>Standard Keller (ca. 6 m³)</h3>
+      <div class="betrag">ab 385 €</div>
+      <p>Unser Bestseller für klassische Kellerabteile in Wien</p>
+    </div>
+
+    <div class="preis-box">
+      <h3>Großer Keller / Garage (ca. 10 m³)</h3>
+      <div class="betrag">ab 590 €</div>
+      <p>Eine volle Kastenwagen-Ladung inklusive Entsorgung</p>
+    </div>
+
+    <div class="preis-box">
+      <h3>Wohnung / Verlassenschaft</h3>
+      <div class="betrag">Nach Besichtigung</div>
+      <p>Kostenlose Vor-Ort-Besichtigung & garantiertes Fixpreis-Angebot</p>
+    </div>
+  </div>
+</div>
+
+<section>
+  <h2>Warum Klaric’s?</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>✔ Fixpreis-Garantie</h3>
+      <p>Sie wissen vorher genau, was es kostet – keine bösen Überraschungen.</p>
+    </div>
+    <div class="card">
+      <h3>🚀 Schnell & flexibel</h3>
+      <p>Kurzfristige Termine in ganz Wien – oft schon innerhalb von 24 bis 48 Stunden.</p>
+    </div>
+    <div class="card">
+      <h3>🧹 Besenreine Übergabe</h3>
+      <p>Wir hinterlassen Keller, Stiegenhaus und Wohnung sauber und ordentlich.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>So einfach läuft’s ab</h2>
+  <div class="card">
+    <p><strong>In 4 Schritten wieder freier Platz:</strong></p>
+    <div class="ablauf-list">
+      1️⃣ <strong>Fotos per WhatsApp senden</strong> (oder kostenlose Besichtigung vereinbaren)<br>
+      2️⃣ <strong>Sofortiges Fixpreis-Angebot</strong> erhalten<br>
+      3️⃣ <strong>Wunschtermin wählen</strong> – wir kommen mit unserem Transporter vorbei<br>
+      4️⃣ <strong>Besenreine Übergabe</strong> & fachgerechte Entsorgung
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Bilder</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="Besenreiner Raum nach Entrümpelung">
+    <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80" alt="Transporter für Entrümpelung">
+    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80" alt="Saubere Wohnungsübergabe">
+  </div>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <div class="card">
+    <h3>📞 0690 10162222</h3>
+    <p>Rufen Sie mich an oder schreiben Sie mir bequem per WhatsApp – gerne auch direkt mit Fotos für ein schnelles Angebot.</p>
+    <br>
+    <a class="btn" href="tel:+4369010162222">Jetzt anrufen</a>
+    <br><br>
+    <a class="btn btn-whatsapp"
+       href="https://wa.me/4369010162222?text=Hallo,%20ich%20möchte%20eine%20Entrümpelung%20anfragen."
+       target="_blank">
+      WhatsApp schreiben
+    </a>
+  </div>
+</section>
+
+<section style="background:#fff; border-top:1px solid #333; margin-top:40px; max-width:100%;">
+  <div style="max-width:1000px;margin:auto;padding:30px 20px;color:#000;font-size:14px;line-height:1.6;">
+    
+    <h3 style="color:black;">Impressum</h3>
+    
+    <p>
+    Klaric´s Entrümpelung<br>
+    Inhaber: Antonio Klaric <br>
+    1220 Wien<br>
+    Österreich
+    </p>
+
+    <p>
+    Telefon: +43 690 10162222<br>
+    E-Mail: antonioklaric101@gmail.com
+    </p>
+
+    <p style="margin-top:20px;">
+    © 2027 Klaric´s Entrümpelung
+    </p>
+  </div>
+</section>
+
+<section style="background:#fff; border-top:1px solid #333; margin-top:20px; max-width:100%;">
+  <div style="max-width:1000px;margin:auto;padding:30px 20px;color:#000;font-size:14px;line-height:1.6;">
+    
+    <h3 style="color:black;">Datenschutzerklärung</h3>
+    
+    <p>
+    Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Personenbezogene Daten werden nur im notwendigen Umfang erhoben und verwendet.  
+    Ihre Daten werden nicht an Dritte weitergegeben, es sei denn, dies ist gesetzlich vorgeschrieben oder zur Erfüllung unserer Dienstleistungen erforderlich.
+    </p>
+
+    <p>
+    Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Sperrung Ihrer gespeicherten Daten.  
+    Kontaktieren Sie uns hierzu unter: antonioklaric101@gmail.com
+    </p>
+
+    <p>
+    Weitere Informationen finden Sie auf der <a href="https://www.dsb.gv.at/" target="_blank" style="color:gold;">Website der Österreichischen Datenschutzbehörde</a>.
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2027 Klaric’s Entrümpelung Wien
+</footer>
+
+</body>
+</html>
